@@ -1,0 +1,1 @@
+proc goodproc {a b} { puts stderr "$a $b"; return [list $a $b] }
